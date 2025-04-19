@@ -12,46 +12,44 @@ Cloud Service Access Management System
 
  Objectives
 
- ● Todevelopabackend system that dynamically manages access to cloud
+ ● To developa backend system that dynamically manages access to cloud
  services based on user subscriptions.
 
- ● Toimplementarole-based access control (RBAC) system where the admin can
+ ● To implement a role-based access control (RBAC) system where the admin can
  modify user permissions and subscription plans.
 
- ● Tosimulate cloud service usage and enforce limits based on subscription plans.
+ ● To simulate cloud service usage and enforce limits based on subscription plans.
  Key Features
 
  ● Create at least 6 random APIs similar to Cloud Services which will be used as the
  services that are being managed by this system. It does not matter what these
- APIs return or these APIs are. They are just here to be managed. Do not focus
-
- muchonthese APIs.
+ APIs return or these APIs are. They are just here to be managed. Do not focus much on these APIs.
 
  Management APIs
 
  Subscription Plan Management
  
- ● AdminFunctions: Create, modify, and delete subscription plans. Each plan
+ ● Admin Functions: Create, modify, and delete subscription plans. Each plan
  will include a set of permissions (API access) and usage limits.
 
- ● PlanAttributes: Plan name, description, list of API permissions, usage
+ ● Plan Attributes: Plan name, description, list of API permissions, usage
  limits (e.g., API call limits).
 
  Permission Management
 
- ● AdminFunctions: Add, modify, or delete permissions. Permissions are
+ ● Admin Functions: Add, modify, or delete permissions. Permissions are
  essentially names of APIs that customers can access.
 
  ● Permission Attributes: Permission name, API endpoint, description.
 User Subscription Handling
 
- ● CustomerFunctions: Subscribe to a plan, view current subscription details,
+ ● Customer Functions: Subscribe to a plan, view current subscription details,
  and usage statistics.
 
- ● AdminFunctions: Assign or modify a user's subscription plan.
+ ● Admin Functions: Assign or modify a user's subscription plan.
  Access Control
 
- ● Implement amechanism tocheck if a customer’s API request is within the
+ ● Implement a mechanism to check if a customer’s API request is within the
  scope of their subscription plan. Deny access if the user’s plan does not
  have permission or the request exceeds the plan’s limit.
  Usage Tracking and Limit Enforcement
@@ -79,10 +77,10 @@ User Subscription Handling
 
  ● Proper use of asynchronous programming
 
- ● Codereadability and organization
+ ● Code read ability and organization
 
  ● Documentation quality
 
  Good luck with the project!
- 
+
  Note : You can choose any database that suits the backend design
